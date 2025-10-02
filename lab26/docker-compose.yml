@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: mon_app26
+    restart: always
+    ports:
+      - "5432:5432"
+    mem_limit: 256m   
+    cpus: 0.25   
+    volumes:
+    - ./volume/pgdata:/var/lib/postgresql/data
