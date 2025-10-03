@@ -20,7 +20,7 @@ docker exec -it mon_app16 mysql -uroot -psecret
 ```
 USE demo;
 CREATE TABLE test (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), lastname VARCHAR(50));
-INSERT INTO test (name, lastname) VALUES ('Karim', 'Arous');
+INSERT INTO test (name, lastname) VALUES ('Raihane', 'Modhaffer');
 ```
 
 5. List input

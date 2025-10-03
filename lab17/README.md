@@ -19,7 +19,7 @@ docker exec -it mon_app17 psql -U postgres -d demo
 4. Add user
 ```
 CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT, lastname TEXT);
-INSERT INTO users (name, lastname) VALUES ('Karim', 'Arous');
+INSERT INTO users (name, lastname) VALUES ('Raihane', 'Modhaffer');
 ```
 
 5. List input
